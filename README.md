@@ -4,7 +4,7 @@
 
 * **Client**: Node, npm, angular-cli
 * **Server**: Go
-
+* **Database**: GORM 
 ## Getting started: ##
 * git clone git@github.com:Khurshid11/goWithAngular2.git
 
