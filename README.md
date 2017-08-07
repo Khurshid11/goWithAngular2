@@ -6,6 +6,7 @@
 * **Server**: Go
 * **Database**: GORM 
 ## Getting started: ##
+* Firstly make sure you select develop branch if it is master branch
 * git clone git@github.com:Khurshid11/goWithAngular2.git
 
 * Install latest version of node by following command (If your node version is old):
