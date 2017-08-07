@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>Registration Form</h1>
+        </div>
+        <form class="form-horizontal" role="form" method="post" action="/addUser">
+
+            <div class="form-group">
+                <label for="firstName" class="col-sm-2 control-label">First Name:</label>
+                <div class="col-sm-6">
+                    <input type="text" name="firstName" class="form-control" placeholder="First Name" [(ngModel)]="newUser.firstName" #firstName="ngModel">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName" class="col-sm-2 control-label">Last Name:</label>
+                <div class="col-sm-6">
+                    <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last Name" [(ngModel)]="newUser.lastName" #lastName="ngModel">
+                </div>
+            </div>
+
+            <!-- <div class="form-group">
+        <label for="" class="col-sm-2 control-label">Gender:</label>
+        <div class="col-sm-6">
+          <label class="radio-inline">
+            <input type="radio" name="gender" id="gender1" value="male">Male
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="gender" id="gender2" value="female">Female
+          </label>
+        </div>
+      </div> -->
+
+            <!--<div class="form-group">
+        <label for="dob" class="col-sm-2 control-label">DOB:</label>
+        <div class="col-sm-6">
+          <input type="text" name="dob" class="form-control datepicker" id="dob" placeholder=" Date of Birth">
+        </div>
+      </div>-->
+
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email:</label>
+                <div class="col-sm-6">
+                    <input type="email" name="email" class="form-control" placeholder="User Email" [(ngModel)]="newUser.email" #email="ngModel">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="passwd" class="col-sm-2 control-label">Password:</label>
+                <div class="col-sm-6">
+                    <input type="password" name="passwd" class="form-control" id="passwd" placeholder="Password" [(ngModel)]="newUser.password" #password="ngModel">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary" id="register" (click)="register()">Register</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+    <!-- end for class "row" -->
+</div>
+<!-- end for class "container" -->
