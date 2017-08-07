@@ -11,7 +11,9 @@
 
 * Install latest version of node by following command (If your node version is old):
 step 1: sudo apt-get update
+
 step 2: sudo apt-get install build-essential libssl-dev
+
 step 3: curl https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 Close and reopen your terminal to start using nvm 
